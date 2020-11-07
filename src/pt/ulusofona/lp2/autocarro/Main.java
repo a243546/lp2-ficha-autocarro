@@ -11,6 +11,8 @@ public class Main {
 
         a1.adicionarParagem(new Paragem("Benfica"));
         a1.adicionarParagem(new Paragem("Sete Rios"));
+        a1.adicionarParagem(new Paragem("Praça de Espanha"));
+        a1.adicionarParagem(new Paragem("Marquês de Pombal"));
 
         System.out.println("--> " + a1);
 
