@@ -11,6 +11,8 @@ public class Main {
 
         a1.adicionarParagem(new Paragem("Benfica"));
         a1.adicionarParagem(new Paragem("Sete Rios"));
+        a1.adicionarParagem(new Paragem("Praça de Espanha"));
+        a1.adicionarParagem(new Paragem("MArquês de Pombal"));
 
         System.out.println("--> " + a1);
 
@@ -62,8 +64,8 @@ public class Main {
         return autocarros;
     }
 
-    static HashMap<Integer, Autocarro> autocarrosPorID() {
-        HashMap<Integer, Autocarro> result = new HashMap<>();
+    static  HashMap<Integer, Autocarro> autocarrosPorID() {
+        HashMap<Integer, Autocarro> result  =  new HashMap<>();
 
         result.put(100, autocarroUrbano());
         result.put(200, autocarroSuburbano());
